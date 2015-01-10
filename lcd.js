@@ -12,10 +12,12 @@ var cursor = 0x4B;
 function throwError (error) {
   if (error) throw error;
 }
-
-wire.writeBytes(0xFE, 0x4B, throwError);
-//wire.writeBytes(0xFE, 0x42, throwError);
-//wire.writeBytes(0xFE, 0x41, throwError);
-//wire.writeBytes(0xFE, 0x51, throwError);
-//wire.writeBytes(0xFE, 0x46);
-//wire.writeBytes('It works!');
+// Commands are legit, text needs an ASCII code: https://duckduckgo.com/?q=ascii+table
+//wire.writeBytes(command, [on], throwError);
+//wire.writeBytes(command, [clear], throwError);
+//wire.writeBytes(command, [cursor_off], throwError);
+//wire.writeBytes(command, [home], throwError);
+//wire.writeBytes(command, [off], throwError);
+//wire.writeBytes(command, [on], throwError);
+//wire.writeByte(69, throwError);
+wire.writeBytes(65, [66,67], throwError);
