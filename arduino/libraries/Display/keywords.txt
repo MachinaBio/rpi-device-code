@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For Display
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LCDconfig		KEYWORD1
+AquinasDisplay	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+update	KEYWORD2
+valves	KEYWORD2
+flash	KEYWORD2
+begin	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

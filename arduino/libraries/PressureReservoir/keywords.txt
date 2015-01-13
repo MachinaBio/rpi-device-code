@@ -1,0 +1,20 @@
+#######################################
+# Syntax Coloring Map For PressureReservoir
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+ReservoirConfig		KEYWORD1
+PressureSensor		KEYWORD1
+PressureReservoir	KEYWORD1
+SensorCalibration	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+update				KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

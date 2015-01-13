@@ -1,0 +1,6 @@
+SE95    KEYWORD1
+temp    KEYWORD2
+conf    KEYWORD2
+tos     KEYWORD2
+thyst   KEYWORD2
+shutdown    KEYWORD2

@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For Serial Manager
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SerialManager	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+init	KEYWORD2
+setPacketHandler	KEYWORD2
+update	KEYWORD2
+isBusySending	KEYWORD2
+sendSerialByte	KEYWORD2
+sendSerialPacket	KEYWORD2
+sendRawSerial	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

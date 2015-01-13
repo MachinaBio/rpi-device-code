@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For LTC1695 Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LTC1695		KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+fullSpeed		KEYWORD2
+halfSpeed		KEYWORD2
+adjustSpeed			KEYWORD2
+stop			KEYWORD2
+currentFault	KEYWORD2
+tempFault		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
